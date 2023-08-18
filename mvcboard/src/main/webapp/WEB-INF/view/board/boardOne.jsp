@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>상세보기</h1>
+	<table>
+		<tr>
+			<td>board_no</td>
+			<td>
+				${boardOne.boardNo}
+			</td>
+		</tr>
+		<tr>
+			<td>local_name</td>
+			<td>
+				${boardOne.localName}
+			</td>
+		</tr>
+		<tr>
+			<td>board_title</td>
+			<td>
+				${boardOne.boardTitle}
+			</td>
+		</tr>
+		<tr>
+			<td>board_content</td>
+			<td>
+				${boardOne.boardContent}
+			</td>
+		</tr>
+		<tr>
+			<td>member_id</td>
+			<td>
+				${boardOne.memberId}
+			</td>
+		</tr>
+		<tr>
+			<td>createdate</td>
+			<td>
+				${boardOne.createdate}
+			</td>
+		</tr>
+		<tr>
+			<td>updatedate</td>
+			<td>
+				${boardOne.updatedate}
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
